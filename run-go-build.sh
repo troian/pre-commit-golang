@@ -8,4 +8,4 @@ GOPATH=$GOPATH:$gitroot
 
 cd $gitroot
 
-go build -v -gcflags "-N -l" ./...
+go build -v "$@"
