@@ -7,10 +7,11 @@ golang hooks for http://pre-commit.com/
 
 Add this to your `.pre-commit-config.yaml`
 
-    -   repo: https://github.com/gabriel/pre-commit-golang
+  -   repo: https://github.com/troian/pre-commit-golang
         sha: HEAD
         hooks:
         -   id: go-fmt
+        -   id: go-build
         -   id: go-metalinter
             args:
             - --exclude=corefoundation.go
@@ -18,7 +19,7 @@ Add this to your `.pre-commit-config.yaml`
             - --vendor
             - --cyclo-over=20
             - --dupl-threshold=100
-
+            - --disable=gotype
 
 ### Available hooks
 
