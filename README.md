@@ -25,6 +25,7 @@ Add this to your `.pre-commit-config.yaml`
 - `go-fmt` - Runs `gofmt`, requires golang
 - `go-vet` - Runs `go vet`, requires golang
 - `go-lint` - Runs `golint`, requires https://github.com/golang/lint
+- `go-build` - Runs `go build`, requires golang
 - `go-metalinter` - Runs `gometalinter`, requires https://github.com/alecthomas/gometalinter
 
 ### Metalinter
