@@ -8,4 +8,6 @@ GOPATH=$GOPATH:$gitroot
 
 cd $gitroot
 
-go build -v "$@"
+for file in "$@"; do
+		go build -v $file
+done
