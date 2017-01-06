@@ -27,3 +27,4 @@
     description: "Makes sure Go code can build"
     entry: run-go-build.sh
     language: 'script'
+    files: '\.go$'
