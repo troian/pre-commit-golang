@@ -25,6 +25,5 @@
 -   id: go-build
     name: 'go build'
     description: "Makes sure Go code can build"
-    entry: go build
-    language: system
-    files: '\.go$'
+    entry: run-go-build.sh
+    language: 'script'
