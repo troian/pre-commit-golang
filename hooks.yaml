@@ -22,3 +22,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `gometalinter`, requires https://github.com/alecthomas/gometalinter"
+-   id: go-build
+    name: 'Go Build'
+    description: 'Makes sure Go code can build'
+    entry: go build
+    language: system
+    files: '\.go$'
