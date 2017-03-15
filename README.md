@@ -5,7 +5,7 @@ golang hooks for http://pre-commit.com/
 
 ### Using these hooks
 
-Add this to your `.pre-commit-config.yaml`
+In your project root dir add this to `.pre-commit-config.yaml`
 
     -   repo: https://github.com/troian/pre-commit-golang
         sha: HEAD
