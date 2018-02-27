@@ -34,3 +34,9 @@
     entry: run-go-build.sh
     language: 'script'
     files: '\.go$'
+-   id: go-build-plugin
+    name: 'go build plugin'
+    description: "Makes sure Go code can build package as plugin"
+    entry: run-go-build-plugin.sh
+    language: 'script'
+    files: '\.go$'
