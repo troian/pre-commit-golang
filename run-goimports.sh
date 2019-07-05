@@ -4,5 +4,5 @@
 #
 set -e
 
-output=$(goimports -w .)
+output=$(goimports -w "$@")
 [[ -z "$output" ]]
